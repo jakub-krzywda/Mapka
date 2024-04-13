@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     "gmap.apps.GmapConfig",
     "rest_framework",
+    "frontend",
 ]
 
 MIDDLEWARE = [
