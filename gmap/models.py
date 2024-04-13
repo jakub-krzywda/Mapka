@@ -14,7 +14,7 @@ class Users(models.Model):
 class BioMedicalData(models.Model):
     dataid = models.AutoField(primary_key=True)
     userid = models.ForeignKey(Users, on_delete=models.CASCADE)
-    age = models.IntegerField
+    age = models.IntegerField()
     pulse = models.JSONField()
     respiration = models.JSONField()
     temperature = models.JSONField()
