@@ -1,21 +1,5 @@
 Mapka/                   # Główny katalog projektu Django
 │
-├── Mapka/               # Konfiguracja projektu
-│   ├── __init__.py
-│   ├── settings.py          # Ustawienia Django dla projektu
-│   ├── urls.py              # Główne URL-i projektu (root URLconf)
-│   └── wsgi.py              # Punkt wejścia dla WSGI kompatybilnych serwerów do projektu
-│
-├── users/                   # Aplikacja Django dla zarządzania użytkownikami
-│   ├── migrations/
-│   │   └── __init__.py
-│   ├── __init__.py
-│   ├── admin.py             # Rejestracja modeli w panelu administracyjnym Django
-│   ├── models.py            # Definicje modeli dla aplikacji użytkowników
-│   ├── tests.py             # Testy dla aplikacji użytkowników
-│   ├── views.py             # Widoki dla aplikacji użytkowników
-│   └── apps.py              # Konfiguracja aplikacji użytkowników
-│
 ├── api/                     # Aplikacja Django dla REST API
 │   ├── migrations/
 │   │   └── __init__.py
@@ -37,5 +21,23 @@ Mapka/                   # Główny katalog projektu Django
 │   ├── views.py             # Widoki dla serwowania stron frontendu
 │   ├── urls.py              # URL-i dla frontendu
 │   └── apps.py              # Konfiguracja aplikacji frontend
+│
+├── Mapka/               # Konfiguracja projektu
+│   ├── __init__.py
+│   ├── settings.py          # Ustawienia Django dla projektu
+│   ├── urls.py              # Główne URL-i projektu (root URLconf)
+│   └── wsgi.py              # Punkt wejścia dla WSGI kompatybilnych serwerów do projektu
+│
+├── users/                   # Aplikacja Django dla zarządzania użytkownikami
+│   ├── migrations/
+│   │   └── __init__.py
+│   ├── __init__.py
+│   ├── admin.py             # Rejestracja modeli w panelu administracyjnym Django
+│   ├── models.py            # Definicje modeli dla aplikacji użytkowników
+│   ├── tests.py             # Testy dla aplikacji użytkowników
+│   ├── views.py             # Widoki dla aplikacji użytkowników
+│   └── apps.py              # Konfiguracja aplikacji użytkowników
+│
+│
 │
 └── manage.py                # Skrypt do zarządzania projektem Django
